@@ -5,11 +5,9 @@ import demos.StringUtil;
 
 public class Utils {
 
-    public boolean isAllPositiveNumbers(String... str) {
-        StringUtil stringUtil = new StringUtil();
+    public static boolean isAllPositiveNumbers(String... str) {
         for (int i = 0; i < str.length; i++) {
-            if (!stringUtil.isPositiveNumber(str[i])) {
-                System.out.println(str[i]);
+            if (!StringUtil.isPositiveNumber(str[i])) {
                 return false;
             }
         }
