@@ -7,7 +7,7 @@ public class Utils {
 
     public static boolean isAllPositiveNumbers(String... str) {
         for (int i = 0; i < str.length; i++) {
-            if (!StringUtil.isPositiveNumber(str[i])) {
+            if (!StringUtil.isPositiveNumber(str[i]) && str == null) {
                 return false;
             }
         }
