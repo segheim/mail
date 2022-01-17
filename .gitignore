@@ -1,10 +1,6 @@
 *.class
 *.log
 *.ctxt
-
-.mtj.tmp/
-
-
 *.jar
 *.war
 *.nar
@@ -16,9 +12,11 @@
 hs_err_pid*
 replay_pid*
 
+.mtj.tmp/
 .idea
 .gradle
 build/
+gradle/
 
 gradle-app.setting
 
