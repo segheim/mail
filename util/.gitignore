@@ -13,10 +13,11 @@ hs_err_pid*
 replay_pid*
 
 .mtj.tmp/
-.idea
-.gradle
+.idea/
+.gradle/
 build/
 gradle/
+gradle
 
 gradle-app.setting
 
