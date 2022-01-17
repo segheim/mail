@@ -2,5 +2,9 @@
 .gradle
 .idea
 
+# Compiled class file
+*.class
+# Log file
+*.log
 # Ignore Gradle build output directory
 build
