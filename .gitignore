@@ -17,7 +17,6 @@ replay_pid*
 .gradle/
 build/
 gradle/
-gradle
 
 gradle-app.setting
 
